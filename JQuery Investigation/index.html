@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <h1 id="main-title">Welcome to the Message Board</h1>
+  
+    <!-- Buttons -->
+    <button id="change-text">Update Message</button>
+    <button id="toggle-box">Toggle Message Box</button>
+    <button id="add-message">Add New Message</button>
+    <select id="font-select">
+        <option value="Arial">Arial</option>
+        <option value="Georgia">Georgia</option>
+        <option value="Courier New">Courier New</option>
+        <option value="Times New Roman">Times New Roman</option>
+    </select>
+    <input type="range" id="font-size-input" value="20" min="15" max="50" step="5">
+    <p id="font-size-input-text">20px </p>
+    <button id="Apply-Font-Settings">Apply Font Settings</button>
+  
+    <!-- Message Box -->
+    <div id="box">
+      <p id="boxText">This is your message box.</p>
+    </div>
+  
+    <!-- 🎯 EXTENSION: You will need to add a dropdown and input element here -->
+    <!-- Your JavaScript file will have comments explaining how -->
+  <script src="script.js"></script>
+</body>
+</html>
