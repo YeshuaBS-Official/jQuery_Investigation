@@ -4,6 +4,19 @@ body {
     margin: 30px;
   }
 
+  button, select {
+    height: 25px;
+    background-color: rgb(224, 224, 224);
+    border-width: 1.5px;
+    border-color: black;
+    border-radius: 3px;
+  }
+
+  button:hover, select:hover {
+    border-color:  rgb(224, 224, 224);
+    background-color: rgb(240, 240, 240);
+  }
+
   #font-size-input-text {
     display: inline;
   }

@@ -24,16 +24,24 @@ $(document).ready(function() {
     })
 
     $("#font-size-input").change(function(){
-        let value = $("#font-size-input").val() + "px ";
-        $("#font-size-input-text").text(value);
+        let fontSize = $("#font-size-input").val() + "px ";
+        $("#font-size-input-text").text(fontSize);
+        $("#box").css("font-size", fontSize);
     });
 
+    $("#font-select").change(function(){
+        let font = $("#font-select").val();
+        $("#box").css("font-family", font);
+    });
+
+    /*
     $("#Apply-Font-Settings").click(function(){
         let font = $("#font-select").val();
         let fontSize = $("#font-size-input").val() + "px";
         $("#box").css("font-family", font);
         $("#box").css("font-size", fontSize);
     });
+    */
 
 
 
