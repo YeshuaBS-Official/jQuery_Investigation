@@ -4,7 +4,12 @@ body {
     margin: 30px;
   }
 
-  button, select {
+  button, select, input, #font-size-input-text {
+    position:sticky;
+    top: 5vh;
+  }
+
+  button, select{
     height: 25px;
     background-color: rgb(224, 224, 224);
     border-width: 1.5px;
